@@ -16,6 +16,10 @@ app.get('/login',(req,res)=>{
     res.send('<h1>Please login</h1>')
 })
 
+app.get('/youtube' , (req,res)=>{
+  res.send("Welcome to youtube")
+})
+
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
   })
